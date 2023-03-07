@@ -9,4 +9,3 @@
 ![8](https://user-images.githubusercontent.com/120176034/223450358-feac4edc-24ff-4544-bf5a-281b9e5f353c.jpg)
 ![admin1](https://user-images.githubusercontent.com/120176034/223451798-c8129a63-41d1-4d18-b78d-1502dd95d048.jpg)
 ![admin2](https://user-images.githubusercontent.com/120176034/223451825-b81c1422-4562-47c9-aa18-1eb24e2674d4.jpg)
-[Команды.txt](https://github.com/Nurs2891/BSC-shop/files/10910415/default.txt)
