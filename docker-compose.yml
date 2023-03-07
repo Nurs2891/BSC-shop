@@ -1,0 +1,30 @@
+version: '3.3'
+
+services:
+  db:
+    container_name: db
+    image: mysql:8.0
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_DATABASE: testdb
+      MYSQL_USER: nurs
+      MYSQL_PASSWORD: 4856
+      MYSQL_ROOT_PASSWORD: 4856
+    volumes:
+      - my-data:/var/lib/mysql
+
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 6081:80
+    environment:
+      #      - PMA_ARBITRARY=1
+      - PMA_HOST=DB
+    depends_on:
+      - db
+
+volumes:
+  my-data:

@@ -1,0 +1,10 @@
+/*Чтобы при навиденни мышкой карта товар будет увеличеваться*/
+.product:hover {
+    transition: 0.5s;
+    transform: scale(1.02);
+}
+
+.product-link {
+    color: #000 !important;
+    text-decoration: none
+}
